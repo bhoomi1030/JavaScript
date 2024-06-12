@@ -28,6 +28,10 @@ console.log(Math.max(6,8,9,0));
 console.log(Math.min(6,8,9,0));
 
 console.log(Math.random());
+console.log(Math.random()*10);
+console.log(Math.random()*10+1);
 
-
+const max = 20
+const min = 10
+console.log(Math.floor(Math.random() * (max - min + 1)))
 
